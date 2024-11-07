@@ -1,0 +1,8 @@
+universe = vanilla
+executable = process_file.sh
+arguments = part_$(Process).txt
+output = output_$(Process).out
+error = output_$(Process).err
+log = output_$(Process).log
+transfer_input_files = process_file.sh
+queue 5
