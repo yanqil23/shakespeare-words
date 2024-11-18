@@ -1,10 +1,8 @@
-
 #!/bin/bash
 export LC_ALL=C
-sort -m sorted_*.txt > merged_sort.txt
-#merge files
+sort -m shakespeare_part_*_processed.txt > merged_sorted.txt
 
-uniq -c merged_sort.txt | sort -nr > countsOfWords.txt
-#count word
+uniq -c merged_sorted.txt | sort -nr > countsOfWords.txt
+
 
 

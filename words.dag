@@ -1,0 +1,5 @@
+JOB 1 words.sub
+
+SCRIPT PRE 1 pre.sh
+SCRIPT POST 1 post_process.sh
+
